@@ -1,0 +1,9 @@
+def fetch_current_config():
+    return {
+        "admin_users": ["alice@example.com", "bob@example.com"],
+        "mfa_users": ["alice@example.com", "bob@example.com"],
+        "password_policy": {
+            "min_length": 12,
+            "rotation_days": 90
+        }
+    }

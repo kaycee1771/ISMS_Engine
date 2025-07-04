@@ -1,0 +1,12 @@
+A.9.2.3:
+  name: Management of privileged access rights
+  description: Ensure that privileged access (admin rights) are controlled and reviewed.
+  expected_state:
+    admin_users_max: 2
+    admin_must_use_mfa: true
+A.10.1.1:
+  name: Password policy enforcement
+  description: Ensure password length and expiration are enforced.
+  expected_state:
+    min_length: 12
+    rotation_days: 90

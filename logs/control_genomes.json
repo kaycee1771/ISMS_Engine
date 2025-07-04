@@ -1,0 +1,28 @@
+{
+  "A.10.1.1": {
+    "fingerprint": "01486bf1511f13c92bd0da56af86dbdbb7983588c13dad97e4bba41787c649bc",
+    "config": {
+      "min_length": 12,
+      "rotation_days": 90
+    },
+    "tool": "Okta",
+    "source": "google_workspace",
+    "generated_at": "2025-07-04T09:27:41.319027"
+  },
+  "A.9.2.3": {
+    "fingerprint": "8d82d35a4b94370f4c21ffbf1447ebc52cc25aa261961ad6fcbea18cab27d1da",
+    "config": {
+      "admin_users": [
+        "alice@example.com",
+        "bob@example.com"
+      ],
+      "mfa_required_for_admins": [
+        "alice@example.com",
+        "bob@example.com"
+      ]
+    },
+    "tool": "Okta",
+    "source": "google_workspace",
+    "generated_at": "2025-07-04T09:27:41.319027"
+  }
+}

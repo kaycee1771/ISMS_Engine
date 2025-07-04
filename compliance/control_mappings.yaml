@@ -1,0 +1,13 @@
+A.9.2.3:
+  iso_name: Management of privileged access rights
+  dora_id: Article 6(1)
+  dora_desc: ICT systems must include secure access control for privileged accounts.
+  nis2_id: Article 21(2)(d)
+  nis2_desc: Implementation of access control policies.
+
+A.10.1.1:
+  iso_name: Password policy enforcement
+  dora_id: Article 6(3)
+  dora_desc: Password policies must be enforced across critical ICT services.
+  nis2_id: Article 21(2)(b)
+  nis2_desc: Use of authentication procedures and identity management systems.

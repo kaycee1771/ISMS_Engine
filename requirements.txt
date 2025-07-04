@@ -1,0 +1,6 @@
+openai
+python-dotenv
+networkx
+matplotlib
+river
+pyyaml

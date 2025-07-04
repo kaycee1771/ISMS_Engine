@@ -1,0 +1,6 @@
+# resources/remediation_map.yaml
+Admin user list has changed.: fix_admin_users.sh
+MFA user list has changed.: enable_mfa.sh
+Password min length has changed.: enforce_password_policy.bat
+Password rotation period has changed.: enforce_password_policy.bat
+

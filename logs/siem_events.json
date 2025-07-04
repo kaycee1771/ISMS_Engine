@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-07-04T09:01:29.985880",
+    "source": "SIEM",
+    "event_type": "brute_force_attempt",
+    "severity": "high",
+    "details": {
+      "user": "alice",
+      "ip": "192.168.1.101",
+      "control_violated": "A.9.2.3",
+      "description": "Multiple failed admin logins detected"
+    }
+  },
+  {
+    "timestamp": "2025-07-04T09:27:41.326425",
+    "source": "SIEM",
+    "event_type": "brute_force_attempt",
+    "severity": "high",
+    "details": {
+      "user": "alice",
+      "ip": "192.168.1.101",
+      "control_violated": "A.9.2.3",
+      "description": "Multiple failed admin logins detected"
+    }
+  }
+]

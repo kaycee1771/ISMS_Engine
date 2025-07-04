@@ -1,0 +1,9 @@
+{
+  "A.10.1.1": {
+    "min_length": 12,
+    "rotation_days": 90
+  },
+  "A.9.2.3": {
+    "admin_count": 2
+  }
+}
