@@ -3,17 +3,28 @@
 **A next-gen backend compliance automation engine that thinks, heals, and learns.**
 
 ---
+## Overview
 
+The **Self-Healing ISMS Engine** is a modular backend-only cybersecurity automation tool designed specifically for:
+
+- **SaaS providers** seeking embedded compliance.
+- **Security engineering teams** needing infrastructure-level remediation.
+- **Auditors** requiring traceable, verifiable ISMS fitness logs.
+
+This engine automatically **injects security controls**, **maps configurations**, **detects drift**, **self-heals misconfigurations**, and **generates intelligent remediation reports**,  using both policy logic and LLM reasoning.
+
+---
 ## What It Does
 
 The Self-Healing ISMS Engine is a backend-only cybersecurity tool for **SaaS providers**, **security teams**, and **auditors** that:
 
-* **Injects ISO27001/NIS2/DORA controls** into live infrastructure.
-* **Maps configuration** against compliance baselines.
-* **Detects drift** and policy violations.
-* **Auto-remediates** non-compliant states.
-* **Logs audits, tracks control fitness**, and uses an LLM for plain-English remediation reasoning.
-* Supports **GitOps sync**, **SIEM event ingestion**, **telemetry**, **LLM reasoning**, **ontology mapping**, and **self-tuning thresholds.**
+- **Live Policy Injection**: ISO27001, NIS2, DORA controls applied in real-time.
+- **Drift Detection & Policy Mapping**: Finds misaligned settings vs. compliance baselines.
+- **Auto-Remediation**: Fixes issues automatically or escalates with approval workflows.
+- **Audit Trails & Fitness Tracking**: Every action logged with risk scoring and trend tracking.
+- **LLM Remediation Reasoning**: GPT-based plain-English explanations for human clarity.
+- **Modular + Event-Driven**: Compatible with GitOps, CI/CD, SIEM, telemetry, and REST APIs.
+- **Ontology Mapper**: Maps ISO to European cybersecurity regulations (NIS2/DORA).
 
 All in a **fully modular backend package**. Plug it in, schedule it, call it from CI/CD, or integrate via future REST API.
 
@@ -139,6 +150,15 @@ ISMS_Engine/
 * **GitOps + SIEM Events**: React to live policy and threat signal changes.
 * **Modular Phases**: Each phase is reusable, pluggable, and CLI-runnable.
 * **Drift-aware Fitness Tracking**: Line chart tracking and risk prioritization (soon).
+
+---
+
+## Design
+
+- **Modular by Design**: Each component is pluggable and callable independently.
+- **Backend-Only**: CI/CD and infra-centric workflows. No frontend needed.
+- **Explainable Compliance**: Transparency through LLM-powered narratives.
+- **DevOps Ready**: Supports hooks for GitOps, REST APIs, SIEMs, and telemetry.
 
 ---
 
